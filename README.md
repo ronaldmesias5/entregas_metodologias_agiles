@@ -15,12 +15,5 @@
 - **Duración:** 2 semanas (15 días)
 - **Historias por Sprint:** 2 historias de usuario
 - **Metodología:** Scrum
-
-### Sprints Planeados
-
-| Sprint | Historias | Duración |
-|--------|-----------|----------|
-| Sprint 1 | HU-001 (Registro) • HU-003 (Login) | 2 semanas |
-| Sprint 2 | HU-002 (Validación) • HU-004 (Recuperar contraseña) | 2 semanas |
-| Sprint 3 | Por definir | 2 semanas |
+- **Total de Sprints:** 10
 
