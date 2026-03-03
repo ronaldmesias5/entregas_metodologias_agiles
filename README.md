@@ -16,4 +16,3 @@
 - **Historias por Sprint:** 2 historias de usuario
 - **Metodología:** Scrum
 - **Total de Sprints:** 10
-

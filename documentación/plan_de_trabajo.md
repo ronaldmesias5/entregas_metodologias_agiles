@@ -54,28 +54,50 @@ Estructura: **2 historias cada 15 días** = 10 sprints de 15 días cada uno
 
 ```
 entregas_metodologias_agiles/
-├── README.md
-├── documentación
-│   ├──arquitectura_proyecto.md
-│   ├──historias_de_usuario.md
-│   ├──basededatos.drawio.svg
-│   └──plan_de_trabajo.md
-├── sprint_1
-│   ├──be (backend)
-│   ├──fe (frontend)
-│   ├──db (bases de datos)
-│   └──backlog_sprint_1.md
-├── sprint_2
-│   ├──be (backend)
-│   ├──fe (frontend)
-│   ├──db (bases de datos)
-│   └──backlog_sprint_2.md
-├── sprint_3
-│   ├──be (backend)
-│   ├──fe (frontend)
-│   ├──db (bases de datos)
-│   └──backlog_sprint_3.md
-└── ... (hasta Sprint 10)
+│
+├── 📚 documentación/                 # Documentación
+│   ├── plan_de_trabajo.md            # Plan de sprints
+│   ├── historias-usuario.md          # Historias de usuario
+│   ├── arquitectura_proyecto.md      # Tecnologías y estructura
+│   ├── bsededatos.drawio.svg         # MER
+│   └── Sprints/                      # Backlogs sprints
+│       └── backlog_sprint_1.md       # Backlog
+│
+├── 🚀 backend/                       # API y Lógica de Negocio
+│   ├── src/
+│   │   ├── controllers/              # Controladores
+│   │   ├── services/                 # Lógica de negocio
+│   │   ├── models/                   # Esquemas
+│   │   ├── routes/                   # Rutas
+│   │   ├── middleware/               # Autenticación, validación
+│   │   ├── utils/                    # Funciones auxiliares
+│   │   └── config/                   # Configuración
+│   ├── tests/                        # Tests unitarios e integración
+│   ├── .env                          # Variables de entorno
+│   ├── package.json                  # Dependencias
+│   └── server.js                     # Punto de entrada
+│
+├── 💻 frontend/                      # Interfaz de Usuario
+│   ├── src/
+│   │   ├── components/               # Componentes React
+│   │   ├── pages/                    # Páginas
+│   │   ├── services/                 # Llamadas a API
+│   │   ├── styles/                   # CSS/Tailwind
+│   │   ├── utils/                    # Funciones auxiliares
+│   │   └── App.js                    # Componente raíz
+│   ├── public/                       # Archivos estáticos
+│   ├── package.json                  # Dependencias
+│   └── .env                          # Variables de entorno
+│
+├── 🗄️ database/                      # Base de Datos
+│   ├── migrations/                   # Migrations de esquema
+│   ├── seeds/                        # Datos iniciales
+│   └── schema.sql                    # Esquema completo
+│
+├── .gitignore                        # Archivos ignorados
+├── docker-compose.yml                # Orquestación de contenedores
+├── README.MD                         # Introducción proyecto
+└── package.json                      # Root dependencies
 
 ```
 
