@@ -71,7 +71,3 @@ entregas_metodologias_agiles/
 ```
 
 ---
-
-├── arquitectura_proyecto.md
-├── historias_de_usuario.md
-├── basededatos.drawio.svg
