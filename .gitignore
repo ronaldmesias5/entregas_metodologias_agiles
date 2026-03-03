@@ -1,0 +1,13 @@
+# Ignorar archivos y carpetas de sistema de Windows
+*.ini
+Thumbs.db
+.DS_Store
+
+# Ignorar carpetas de entorno de desarrollo
+.vscode/
+.idea/
+__pycache__/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
